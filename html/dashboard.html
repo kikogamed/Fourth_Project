@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard" />
+    <title>Dashboard</title>
+    <!-- Styling -->
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/frame-work.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+    <!-- Normalizing -->
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+    <div class="page flex">
+        <div class="side-bar bg-color-white flex relative gap-20 column">
+            <h3 class="text-c relative">KIKO</h3>
+            <ul class="flex column gap-10 font-14">
+                <li class="active">
+                    <a href="dashboard.html">
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="project.html">
+                        <i class="fa-solid fa-sheet-plastic fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-solid fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-solid fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content full-width">
+            <!-- Start Header -->
+            <div class="header flex p-20 bg-color-white space-between align-c">
+                <div class="search relative">
+                    <i class="fa-solid fa-magnifying-glass absolute"></i>
+                    <input type="search" placeholder="Type A Keyword" class="relative p-10 radius-6">
+                </div>
+                <div class="notify flex gap-10 align-c">
+                    <i class="fa-solid fa-bell relative pointer relative"></i>
+                    <img src="../imgs/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" class="radius-half pointer" alt="profile picture">    
+                </div>
+            </div>
+            <!-- End Header -->
+            <!-- Start Content -->
+            <div class="bg">
+                <h1 class="relative p-20">Dashboard</h1>
+                <div class="info grid p-20 gap-20">
+                    <div class="box one relative flex column radius-10">
+                        <div class="welcome flex space-between p-10">
+                            <h3 class="relative">Welcome</h3>
+                            <img src="../imgs/welcome.png" alt="">
+                        </div>
+                        <img class="radius-half absolute" src="../imgs/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" alt="">
+                        <div class="stats column flex wrap align-c relative">
+                            <h4>KIKO</h4>
+                            <p>Developer</p>
+                            <h4>80</h4>
+                            <p>projects</p>
+                            <h4>$8500</h4>
+                            <p>Earned</p>
+                        </div>
+                        <div class="button flex justify-c align-c transition-3 radius-10">
+                            <a href="profile.html">Profile</a>
+                        </div>
+                    </div>
+                    <div class="box two bg-color-white p-10 flex column gap-20 radius-10">
+                        <h3 class="h3">Quick Draft</h3>
+                        <p>Write A Draft For Your Ideas</p>
+                        <input type="text" class="p-10 radius-10" placeholder="Title" name="Title">
+                        <input type="text" class="p-10 radius-10" placeholder="Your Thought">
+                        <div class="button flex justify-c align-c transition-3 radius-10">
+                            <a href="">Save</a>
+                        </div>
+                    </div>
+                    <div class="box three p-10 bg-color-white flex column gap-20 radius-10">
+                        <h3 class="h3">Yearly Targets</h3>
+                        <p>Targets Of The Year</p>
+                        <div class="targets flex column">
+                            <div class="boxx flex gap-10 align-c">
+                                <div class="icon flex justify-c align-c">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                </div>
+                                <div class="numbers flex column relative full-width">
+                                    <p>Money</p>
+                                    <h4>$20.000</h4>
+                                    <div class="percentage absolute"></div>
+                                    <div class="percentnum absolute"></div>
+                                </div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c">
+                                <div class="icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="numbers flex column relative full-width">
+                                    <p>Projects</p>
+                                    <h4>24</h4>
+                                    <div class="percentage absolute"></div>
+                                    <div class="percentnum absolute"></div>
+                                </div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c">
+                                <div class="icon flex justify-c align-c">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="numbers flex column relative full-width">
+                                    <p>Team</p>
+                                    <h4>12</h4>
+                                    <div class="percentage absolute"></div>
+                                    <div class="percentnum absolute"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box four bg-color-white p-10 radius-10">
+                        <h3 class="h3 p-10">Tickets Statistics</h3>
+                        <p class="p-10">Everything About Support Tickets</p>
+                        <div class="content flex wrap gap-20 justify-c align-c">
+                            <div class="boxx flex column p-20 align-c justify-c gap-10 flex-50">
+                                <i class="fa-regular fa-rectangle-list"></i>
+                                <h3>2500</h3>
+                                <p>Total</p>
+                            </div>
+                            <div class="boxx flex p-20 column align-c justify-c gap-10 flex-50">
+                                <i class="fa-solid fa-spinner"></i>
+                                <h3>500</h3>
+                                <p>Pending</p>
+                            </div>
+                            <div class="boxx  p-20 flex column align-c justify-c gap-10 flex-50">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>1900</h3>
+                                <p>Closed</p>
+                            </div>
+                            <div class="boxx flex column align-c justify-c gap-10 flex-50 p-20">
+                                <i class="fa-regular fa-rectangle-xmark"></i>
+                                <h3>100</h3>
+                                <p>Deleted</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Five -->
+                    <div class="box five bg-color-white p-10 radius-10 relative">
+                        <h3>Latest News</h3>
+                        <div class="content flex column space-around">
+                            <div class="boxx relative flex gap-10 align-c">
+                                <img src="../imgs/news-01.png" class="radius-6">
+                                <div class="textt">
+                                    <h4>Created SASS Section</h4>
+                                    <p>New SASS Examples & Tutorials</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">3 Days Ago</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/news-02.png" class="radius-6">
+                                <div class="textt">
+                                    <h4>Changed The Design</h4>
+                                    <p>A Brand New Website Design</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">5 Days Ago</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/news-03.png" class="radius-6">
+                                <div class="textt">
+                                    <h4>Team Increased</h4>
+                                    <p>3 Developers Joined The Team</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">7 Days Ago</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/news-04.png" class="radius-6">
+                                <div class="textt">
+                                    <h4>Added Payment Gateway</h4>
+                                    <p>Many New Payment Gateways Added</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">9 Days Ago</div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Box Six -->
+                    <div class="box six bg-color-white radius-10 p-10">
+                        <h3>Latest Tasks</h3>
+                        <div class="content flex column gap-10">
+                            <div class="textt relative">
+                                <h4>Record One New Video</h4>
+                                <p>Record Python Create Exe Project</p>
+                            </div>
+                            <div class="textt relative">
+                                <h4>Write Article</h4>
+                                <p>Write Low Level vs High Level Languages</p>
+                            </div>
+                            <div class="textt relative">
+                                <h4>Finish Project</h4>
+                                <p>Publish Academy Programming Project</p>
+                            </div>
+                            <div class="textt relative">
+                                <h4>Attend The Meeting</h4>
+                                <p>Attend The Project Business Analysis Meeting</p>
+                            </div>
+                            <div class="textt relative">
+                                <h4>Finish Lesson</h4>
+                                <p>Finish Teaching Flex Box</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Seven -->
+                    <div class="box seven bg-color-white radius-10 p-10">
+                        <h3>Top Search Items</h3>
+                        <div class="content flex space-between">
+                            <div class="column flex column gap-10">
+                                <p class="color-9">Keyword</p>
+                                <p>Programming</p>
+                                <p>JavaScript</p>
+                                <p>PHP</p>
+                                <p>Code</p>
+                                <p>Design</p>
+                                <p>Logic</p>
+                            </div>
+                            <div class="column flex column">
+                                <p class="color-9">Search Count</p>
+                                <p class="num">220</p>
+                                <p class="num">180</p>
+                                <p class="num">160</p>
+                                <p class="num">145</p>
+                                <p class="num">110</p>
+                                <p class="num">95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Eight -->
+                    <div class="box eight five radius-10 bg-color-white p-10">
+                        <h3>Latest Uploads</h3>
+                        <div class="content flex column space-around">
+                            <div class="boxx relative flex gap-10 align-c">
+                                <img src="../imgs/pdf.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>my-file.pdf</h4>
+                                    <p>Elzero</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">2.9mb</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/avi.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>My-Video-File.avi</h4>
+                                    <p>Admin</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">4.9mb</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/pdf.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>My-Psd-File.pdf</h4>
+                                    <p>Osama</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">4.5mb</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/zip.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>My-Zip-File.pdf</h4>
+                                    <p>User</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">8.9mb</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/dll.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>My-DLL-File.pdf</h4>
+                                    <p>Admin</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">4.9mb</div>
+                            </div>
+                            <div class="boxx flex gap-10 align-c relative">
+                                <img src="../imgs/eps.svg" class="radius-6">
+                                <div class="textt">
+                                    <h4>My-Eps-File.pdf</h4>
+                                    <p>Designer</p>
+                                </div>
+                                <div class="days flex align-c justify-c radius-6 font-14">8mb</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Nine -->
+                    <div class="nine bg-color-white p-10 radius-10 relative">
+                        <h3>Latest Project Progress</h3>
+                        <ul>
+                            <li>Got The Project</li>
+                            <li>Started The Project</li>
+                            <li>The Project is About To finish</li>
+                            <li>Test The Project</li>
+                            <li>Finish Project And Get Money</li>
+                        </ul>
+                        <img src="../imgs/project.png" class="absolute">
+                    </div>
+                    <!-- Box Ten Reminders -->
+                    <div class="ten radius-10 p-10 bg-color-white">
+                        <h3>Reminders</h3>
+                        <div class="content">
+                            <div class="box flex gap-20 align-c">
+                                <div class="point radius-half relative"></div>
+                                <div class="textt">
+                                    <h4>Check My Tasks List</h4>
+                                    <p>28/09/2022 - 12:00am</p>
+                                </div>
+                            </div>
+                            <div class="box flex gap-20 align-c">
+                                <div class="point radius-half relative"></div>
+                                <div class="textt">
+                                    <h4>Check My Projects</h4>
+                                    <p>26/10/2022 - 12:00am</p>
+                                </div>
+                            </div>
+                            <div class="box flex gap-20 align-c">
+                                <div class="point radius-half relative"></div>
+                                <div class="textt">
+                                    <h4>Call All My Clients</h4>
+                                    <p>05/11/2022 - 12:00am</p>
+                                </div>
+                            </div>
+                            <div class="box flex gap-20 align-c">
+                                <div class="point radius-half relative"></div>
+                                <div class="textt">
+                                    <h4>Finish The Development Workshop</h4>
+                                    <p>20/12/2022 - 12:00am</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Eleven Post -->
+                    <div class="eleven p-10 bg-color-white radius-10">
+                        <h3>Latest Post</h3>
+                        <div class="acc flex gap-10 align-c">
+                            <img src="../imgs/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" class="radius-half">
+                            <div class="textt">
+                                <h4>KIKO</h4>
+                                <p>About 3 Hours Ago</p>
+                            </div>
+                        </div>
+                        <div class="text relative">
+                            <p>You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.</p>
+                        </div>
+                        <div class="counter flex space-between">
+                            <div class="likes flex align-c">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>1.8k</p>
+                            </div>
+                            <div class="comments flex align-c">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Twelve social -->
+                    <div class="twelve p-10 radius-10 bg-color-white">
+                        <h3>Social Media Stats</h3>
+                        <div class="content flex column gap-10">
+                            <div class="box flex align-c">
+                                <i class="fa-brands fa-square-twitter"></i>
+                                <div class="state flex align-c space-between p-20">
+                                    <p>90k Followers</p>
+                                    <input type="submit" value="Follow">
+                                </div>
+                            </div>
+                            <div class="box flex align-c">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                <div class="state flex align-c space-between p-20">
+                                    <p>2M Like</p>
+                                    <input type="submit" value="Like">
+                                </div>
+                            </div>
+                            <div class="box flex align-c">
+                                <i class="fa-brands fa-square-youtube"></i>
+                                <div class="state align-c space-between p-20 flex">
+                                    <p>1M Sub</p>
+                                    <input type="submit" value="Subscribe">
+                                </div>
+                            </div>
+                            <div class="box flex align-c">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div class="state flex align-c space-between p-20">
+                                    <p>70k Followers</p>
+                                    <input type="submit" value="Follow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Final Box Projects -->
+                <div class="p-20">
+                <div class="final bg-color-white p-10 radius-10">
+                <h3>Projects</h3>
+                <div class="responsive-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Finish Date</th>
+                                <th>Client</th>
+                                <th>Price</th>
+                                <th>Team</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ministry Wikipedia</td>
+                                <td>10 May 2022</td>
+                                <td>Ministry</td>
+                                <td>$5300</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-01.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-02.png" alt="" class="radius-half">
+                                    <img src="../imgs/team-03.png" alt="" class="radius-half">
+                                    <img src="../imgs/team-05.png" alt="" class="radius-half">    
+                                </td>
+                                <td><div class="statue pending flex justify-c align-c">Pending</div></td>
+                            </tr>
+                            <tr>
+                                <td>Elzero Shop</td>
+                                <td>12 Oct 2021</td>
+                                <td>Elzero Company</td>
+                                <td>$1500</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-01.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-02.png" alt="" class="radius-half">
+                                    <img src="../imgs/team-05.png" alt="" class="radius-half">    
+                                </td>
+                                <td><div class="statue progress flex justify-c align-c">In Progress</div></td>
+                            </tr>
+                            <tr>
+                                <td>Bouba App</td>
+                                <td>05 Sep 2021</td>
+                                <td>Bouba</td>
+                                <td>$500</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-01.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-02.png" alt="" class="radius-half">
+                                </td>
+                                <td><div class="statue completed flex justify-c align-c">Completed</div></td>
+                            </tr>
+                            <tr>
+                                <td>Mahmoud Website</td>
+                                <td>22 May 2021</td>
+                                <td>Mahmoud</td>
+                                <td>$800</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-03.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-02.png" alt="" class="radius-half">
+                                </td>
+                                <td><div class="statue completed flex justify-c align-c">Completed</div></td>
+                            </tr>
+                            <tr>
+                                <td>Sayed Website</td>
+                                <td>24 May 2021</td>
+                                <td>KIKO</td>
+                                <td>$300</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-03.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-05.png" alt="" class="radius-half">
+                                </td>
+                                <td><div class="statue rejected flex justify-c align-c">Rejected</div></td>
+                            </tr>
+                            <tr>
+                                <td>Arena Application</td>
+                                <td>1 May 2021</td>
+                                <td>Arena Application</td>
+                                <td>$2300</td>
+                                <td class="pics">
+                                    <img src="../imgs/team-03.png" class="radius-half" alt="">
+                                    <img src="../imgs/team-05.png" alt="" class="radius-half">
+                                    <img src="../imgs/team-01.png" alt="" class="radius-half">
+                                    <img src="../imgs/team-02.png" alt="" class="radius-half">
+                                </td>
+                                <td><div class="statue completed flex justify-c align-c">Completed</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!-- End Content -->
+        </div>
+    </div>
+</body>
+</html>

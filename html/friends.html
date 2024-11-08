@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="friends" />
+    <title>Profile</title>
+    <!-- Styling -->
+    <link rel="stylesheet" href="../css/friends.css">
+    <link rel="stylesheet" href="../css/frame-work.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+    <!-- Normalizing -->
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+    <div class="page flex">
+        <div class="side-bar bg-color-white flex relative gap-20 column">
+            <h3 class="text-c relative">KIKO</h3>
+            <ul class="flex column gap-10 font-14">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="project.html">
+                        <i class="fa-solid fa-sheet-plastic fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="friends.html">
+                        <i class="fa-solid fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-solid fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content full-width">
+            <!-- Start Header -->
+            <div class="header flex p-20 bg-color-white space-between align-c">
+                <div class="search relative">
+                    <i class="fa-solid fa-magnifying-glass absolute"></i>
+                    <input type="search" placeholder="Type A Keyword" class="relative p-10 radius-6">
+                </div>
+                <div class="notify flex gap-10 align-c">
+                    <i class="fa-solid fa-bell relative pointer relative"></i>
+                    <img src="../imgs/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" class="radius-half pointer" alt="profile picture">    
+                </div>
+            </div>
+            <!-- End Header -->
+            <!-- Start Content -->
+            <div class="bg">
+                <h1 class="relative p-20">Friends</h1>
+            <!-- Start Friends Content -->
+            <div class="friends-content grid p-20">
+                <!-- Box 1 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/fares.jpg" class="radius-half">
+                        <h3>Fares Yassin</h3>
+                        <p class="color-8 font-14">Interviewer</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>99 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>15 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>25 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/10/2021</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                    <div class="vip absolute">VIP</div>
+                </div>
+                <!-- Box 2 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/mego.jpg" class="radius-half">
+                        <h3>Mego</h3>
+                        <p class="color-8 font-14">Mr.</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>30 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>11 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>12 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/08/2020</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/meksha.jpg" class="radius-half">
+                        <h3>Abdallah Meksha</h3>
+                        <p class="color-8 font-14">orderly</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>100 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>20 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>35 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/10/2021</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                    <div class="vip absolute">VIP</div>
+                </div>
+                <!-- Box 4 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/ehab.jpg" class="radius-half">
+                        <h3>Ehab</h3>
+                        <p class="color-8 font-14">Teacher</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>10 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>15 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>243 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/10/2023</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 5 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/ziad.jpg" class="radius-half">
+                        <h3>Ziad Emad</h3>
+                        <p class="color-8 font-14">Engineer</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>92 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>1 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>5 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/6/2022</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 6 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/sasa.jpg" class="radius-half">
+                        <h3>Ma3lem Sasa</h3>
+                        <p class="color-8 font-14">Dentist</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>99 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>325 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>251 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 02/2/2010</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                    <div class="vip absolute">VIP</div>
+                </div>
+                <!-- Box 7 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/bozzd.jpg" class="radius-half">
+                        <h3>Bozza El7ra2</h3>
+                        <p class="color-8 font-14">Trainer</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>5 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>12 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>7 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 24/10/2006</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                    <div class="vip absolute">VIP</div>
+                </div>
+                <!-- Box 8 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/wagih.jpg" class="radius-half">
+                        <h3>Wagih</h3>
+                        <p class="color-8 font-14">AI</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>99 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>15 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>25 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 05/12/2019</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 9 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/zizo.jpg" class="radius-half">
+                        <h3>Zizo</h3>
+                        <p class="color-8 font-14">Developer</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>10 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>1 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>225 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 05/3/2018</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 10 -->
+                <div class="box relative bg-color-white radius-10 p-20">
+                    <div class="call flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-phone"></i></div>
+                    <div class="email flex justify-c align-c radius-half absolute bg-color-eee"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info flex align-c column gap-5">
+                        <img src="../imgs/friends/friend-03.jpg" class="radius-half">
+                        <h3>Mohammed Ashraf</h3>
+                        <p class="color-8 font-14">Programmer</p>
+                    </div>
+                    <div class="stats font-14">
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>22 Friend</p>
+                        </div>
+                        <div class="row align-c flex gap-10">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>76 Project</p>
+                        </div>
+                        <div class="row flex align-c gap-10">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <p>65 Article</p>
+                        </div>
+                    </div>
+                    <div class="footer flex space-between align-c">
+                        <p class="color-8 font-14">Joined 08/4/2022</p>
+                        <div class="control flex gap-5 align-c">
+                            <a href="" class="profile radius-10 flex align-c justify-c font-14 color-white">Profile</a>
+                            <a href="" class="remove flex radius-10 align-c justify-c font-14 color-white">Remove</a>
+                        </div>
+                    </div>
+                </div>
+            </div>

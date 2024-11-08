@@ -1,0 +1,132 @@
+/* Start Box */
+.max-width {
+    max-width: 100%;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.align-c {
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.flex-100 {
+    flex-basis: 100%;
+}
+.flex-50 {
+    flex-basis: calc(50% - 20px);
+}
+.flex-25 {
+    flex-basis: calc(25% - 20px);
+}
+.gap-40 {
+    gap: 40px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-5 {
+    gap: 5px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.transition-3 {
+    transition: .3s;
+}
+.pointer {
+    cursor: pointer;
+}
+.radius-6 {
+    border-radius: 6px;
+}
+.radius-10 {
+    border-radius: 10px;
+}
+.radius-half {
+    border-radius: 50%;
+}
+.active {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 6px;
+}
+.full-width {
+    width: 100%;
+}
+.justify-c {
+    justify-content: center;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.grid {
+    display: grid;
+}
+.center-x {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.center-y {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* End Box */
+/* Start Padding and Margin */
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+/* End Padding and Margin */
+/* Start color */
+.bg-color-white {
+    background-color: white;
+}
+.bg-color-eee {
+    background-color: #eee;
+}
+/* End Color */
+/* Start Font */
+.font-14 {
+    font-size: 14px;
+}
+.font-normal {
+    font-weight: normal;
+}
+.text-c {
+    text-align: center;
+}
+.color-9 {
+    color: #999;
+}
+.color-white {
+    color: white;
+}
+.color-8 {
+    color: #888;
+}
+
+/* End Font */
